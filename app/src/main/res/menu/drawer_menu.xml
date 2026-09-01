@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group_core_nav"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/drawer_map"
+            android:icon="@drawable/ic_map"
+            android:title="Live Navigation Map" />
+
+        <item
+            android:id="@+id/drawer_alerts"
+            android:icon="@drawable/ic_traffic"
+            android:title="Live Traffic Alerts" />
+
+        <item
+            android:id="@+id/drawer_plan"
+            android:icon="@drawable/ic_navigation"
+            android:title="Trip Corridor Planner" />
+
+        <item
+            android:id="@+id/drawer_chat"
+            android:icon="@drawable/ic_robot"
+            android:title="RouteWise AI Assistant" />
+    </group>
+
+    <item android:title="Road Safety &amp; Hazards">
+        <menu>
+            <item
+                android:id="@+id/drawer_report"
+                android:icon="@drawable/ic_add_alert"
+                android:title="Report Hazard (+10 pts)" />
+        </menu>
+    </item>
+
+    <item android:title="Account &amp; Settings">
+        <menu>
+            <item
+                android:id="@+id/drawer_settings"
+                android:icon="@drawable/ic_settings"
+                android:title="App &amp; Voice Settings" />
+
+            <item
+                android:id="@+id/drawer_help"
+                android:icon="@drawable/ic_help"
+                android:title="Help &amp; Support Center" />
+        </menu>
+    </item>
+</menu>

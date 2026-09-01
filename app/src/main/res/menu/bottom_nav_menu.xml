@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_map"
+        android:icon="@drawable/ic_map"
+        android:title="Map" />
+
+    <item
+        android:id="@+id/navigation_alerts"
+        android:icon="@drawable/ic_warning"
+        android:title="Alerts" />
+
+    <item
+        android:id="@+id/navigation_plan"
+        android:icon="@drawable/ic_navigation"
+        android:title="Plan Trip" />
+
+    <item
+        android:id="@+id/navigation_chat"
+        android:icon="@drawable/ic_robot"
+        android:title="AI Scout" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_person"
+        android:title="Profile" />
+</menu>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RouteWise SA</string>
+    <string name="mapbox_access_token">pk.eyJ1Ijoic3QxMDQ0NDE2MyIsImEiOiJjbXRpamRpajkwMTc5MnpyMjFxZnBobTZ3In0.jXJUYZNtRzt1ec1BkeOaag</string>
+    <string name="title_map">Live Navigation Map</string>
+    <string name="title_alerts">Live Traffic Alerts</string>
+    <string name="title_plan">Trip Corridor Planner</string>
+    <string name="title_chat">AI Road Assistant</string>
+    <string name="title_profile">User Profile</string>
+    <string name="report_hazard_banner">Report Road Hazard (+10 pts)</string>
+</resources>
